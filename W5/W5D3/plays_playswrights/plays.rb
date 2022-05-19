@@ -121,7 +121,7 @@ class Playwright
       FROM plays
       WHERE playwright_id = ?
     SQL
-    plays.map { |play| Play.new(play) }
+    
   end
 
 end
